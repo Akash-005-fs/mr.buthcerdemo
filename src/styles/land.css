@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:ital,wght@0,400..900;1,400..900&display=swap');
+
+
+.landermain{
+    height: 100vh;
+    width: 100%;
+     background-color: rgb(226, 3, 85);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+
+.landertop {
+  height: 60vh;
+  width: 100%;
+  background-color: rgb(226, 3, 85);
+  border-bottom-left-radius: 50% 20%;
+  border-bottom-right-radius: 50% 20%;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+
+.imageland{
+height: 400px;
+width: 400px;
+
+overflow-y: visible;
+margin-bottom: -5%;
+z-index: 1;
+}
+
+
+
+.imagelandin{
+height: 100%;
+width: 100%;
+background-image: url(../pictures/p12.png);
+background-position: center;
+background-size: cover;
+}
+
+
+.landerbottom{
+height: 40vh;
+width: 100%;
+background-color: rgba(255, 255, 255, 0);
+display: flex;
+align-items: center;
+justify-content: space-between;
+
+}
+
+.logo1 {
+  height: 200px;
+  width: 400px;
+  background-color: #7a464600;
+  margin-left: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo1 h1 {
+  font-size: 35px;
+  color: white;
+  background: linear-gradient(270deg, #ffffff, #ffffff, #6f6e6e, #b1acac, #ffffff);
+  background-size: 1000% 1000%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradientShift 8s ease infinite;
+ font-family: "Schibsted Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Keyframes for smooth color cycling */
+@keyframes gradientShift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+.linkto1{
+margin-right: 5%;
+}
+
+#explore{
+  
+  height: 87px;
+  width: 217px;
+}
+
+
+
+
+@media only screen and (max-width:800px){
+
+
+.landerbottom{
+flex-direction: column;
+justify-content: center;
+align-items: center;
+transition: 0.8s;
+}
+
+
+.logo1{
+    height: 100px;
+    
+    background-color: #ff010100;
+    margin: 0%;
+    transition: 0.8s;
+}
+
+.logo1 h1 {
+
+font-size: 20px;
+margin:9px;
+
+}
+#explore{
+  
+  margin-top: 17px;
+  height: 59px;
+  width: 217px;
+  transition: 0.8s;
+}
+
+
+
+
+
+
+}
