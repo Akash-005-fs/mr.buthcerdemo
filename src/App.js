@@ -4,7 +4,7 @@ import Home from './pages/Home';
 import Cart from './pages/Cart';
 import Faqs from './pages/Faqs';
 import Contact from './pages/Contact';
-import { Routes, Route, Link, useLocation } from 'react-router-dom';
+import {HashRouter,Routes, Route, Link, useLocation } from 'react-router-dom';
 import { FaHome, FaShoppingCart, FaQuestionCircle,FaPhoneAlt } from 'react-icons/fa';
 
 
@@ -14,6 +14,12 @@ function App() {
 
   return (
     <div className="App">
+     
+     
+<HashRouter>
+
+
+     
       <Routes>
         <Route path="/" element={<Land />} />
         <Route path="/home" element={<Home />} />
@@ -21,6 +27,11 @@ function App() {
         <Route path="/help" element={<Faqs/>} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
+
+</HashRouter>
+
+
+
 
       {/* Bottom Navigation */}
       {location.pathname !== '/' && (
