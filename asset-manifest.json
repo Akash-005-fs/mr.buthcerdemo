@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/mr.buthcer/static/css/main.db94ba63.css",
+    "main.js": "/mr.buthcer/static/js/main.d49c2463.js",
+    "static/js/453.c600afd4.chunk.js": "/mr.buthcer/static/js/453.c600afd4.chunk.js",
+    "static/media/p12.png": "/mr.buthcer/static/media/p12.669f6a073c7e27061708.png",
+    "static/media/order3.png": "/mr.buthcer/static/media/order3.b4a320cc831ba551b2b8.png",
+    "static/media/picin.png": "/mr.buthcer/static/media/picin.2f891a413b6e401c0cb1.png",
+    "static/media/ChatGPT Image May 11, 2025, 12_27_49 AM.png": "/mr.buthcer/static/media/ChatGPT Image May 11, 2025, 12_27_49 AM.a6ab95bf3e37d2542531.png",
+    "static/media/order1.png": "/mr.buthcer/static/media/order1.470af812b49de3c9cd4d.png",
+    "static/media/order2.png": "/mr.buthcer/static/media/order2.8f0c551360b4dc11ee78.png",
+    "index.html": "/mr.buthcer/index.html",
+    "main.db94ba63.css.map": "/mr.buthcer/static/css/main.db94ba63.css.map",
+    "main.d49c2463.js.map": "/mr.buthcer/static/js/main.d49c2463.js.map",
+    "453.c600afd4.chunk.js.map": "/mr.buthcer/static/js/453.c600afd4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.db94ba63.css",
+    "static/js/main.d49c2463.js"
+  ]
+}
